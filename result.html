@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <title>博饼游戏</title>
+      <link type="text/css" rel="stylesheet" href="css/result.css"/>
+    </head>
+    <body>
+        <div class="bg">
+         <img class="background" src="img/背景3.jpg">
+         <div>
+         <img id="选择框" src="img/选择框.png"> 
+         <form>
+            <span id="tcaption">游戏结束</span>
+        <table  id="table" border="1">
+        <tr>
+        <th colspan=4>游戏结果</th>
+        </tr>
+        <tr>
+         <th>
+         <span class="thead" >
+         玩家名
+         </span>
+         </th>
+         <th>
+        <span class="thead" >
+        掷骰结果
+        </span>
+         </th>
+         <th>
+        <span class="thead" >
+        级别
+        </span>
+        </th>
+        <th>
+            <span class="thead" >
+            奖品等级
+            </span>
+        </th>
+        </tr>
+        
+        <tr>
+            <td id="p1name" class="content"></td>
+            <td id="p1result" class="content"></td>
+            <td id="p1class" class="content"></td>
+            <td id="prizeclass1" class="content"></td>
+        </tr>
+        <tr>
+            <td id="p2name" class="content"></td>
+            <td id="p2result" class="content"></td>
+            <td id="p2class" class="content"></td>
+            <td id="prizeclass2" class="content"></td>
+        </tr>
+        <tr>
+            <td id="p3name" class="content"></td>
+            <td id="p3result" class="content"></td>
+            <td id="p3class" class="content"></td>
+            <td id="prizeclass3" class="content"></td>
+        </tr>
+        <tr>
+            <td id="p4name" class="content"></td>
+            <td id="p4result" class="content"></td>
+            <td id="p4class" class="content"></td>
+            <td id="prizeclass4" class="content"></td>
+        </tr>
+         </table>
+         <button type="button" class="button" id="确定">确定</button>
+         </form>
+         </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="js/result.js"></script>
+</html>
