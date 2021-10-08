@@ -1,4 +1,3 @@
-
 $(function () {
     let p1=localStorage.getItem("p1name");
     let p2=localStorage.getItem("p2name");
@@ -319,4 +318,4 @@ $(function () {
       else if(pnum[4]==1) return "一秀";
       else return "无级别";
     }
-    //结果判断函数，用于根据掷骰结果判断级别
+//结果判断函数，用于根据掷骰结果判断级别
