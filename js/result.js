@@ -80,4 +80,4 @@ $(function () {
         location.href="main.html";
         //游戏结束，跳转回开始页面并清空Localstorage
     });
-    })
+})
