@@ -1,4 +1,3 @@
-
 $(function () {
     let p1=localStorage.getItem("p1name");
     let p2=localStorage.getItem("p2name");
