@@ -1,0 +1,105 @@
+.background{
+        
+    width: 1500px;
+    height: 700px;
+}
+.bg{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+.button
+{
+    background:url(../img/按钮.png) no-repeat center top;
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+#返回
+{   position: absolute;
+    left: 1000px;
+    bottom: 150px;
+}
+#确定
+{   position: absolute;
+    left: 400px;
+    bottom: 150px;
+}
+#选择框
+{   position: absolute;
+    left: 275px;
+    top:20px;
+    width: 1000px;
+    height: 600px;
+} 
+
+table, td, th {
+    border: 2px solid black;
+  }
+table
+{   position: absolute;
+    width:900px;
+    top:80px;
+    left: 350px;
+    border-collapse: collapse;
+}
+th
+{
+    width: 150px;
+}
+tr
+{
+    height: 80px;
+}
+input[type=text] {
+position: absolute;
+width: 80%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+
+}
+#fourth
+{   
+    bottom:10px;
+}
+#third
+{  
+    bottom:90px;
+}
+#second
+{   
+    bottom:170px;
+}
+#first
+{   
+    bottom:250px;
+}
+#p4
+{   
+    bottom:20px;
+}
+#p3
+{  
+    bottom:100px;
+}
+#p2
+{   
+    bottom:180px;
+}
+#p1
+{   
+    bottom:260px;
+}
+.player
+{   
+position: absolute;
+left:35px;
+font-size: 30px;
+text-align: center;
+}
