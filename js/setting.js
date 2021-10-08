@@ -31,7 +31,7 @@ let returning=$('#返回');
         } 
         else localStorage.setItem("p2name",p2);
         playernum++;
-    }
+    } 
         if(!isNoInput($('input#third').val()))
     {
         if (localStorage.p3name) {
